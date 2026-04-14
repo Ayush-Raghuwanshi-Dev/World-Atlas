@@ -4,13 +4,22 @@ export default {
 
   theme: {
     extend: {
+      animation: {
+        'blink': 'blink 1.5s step-end infinite',
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0' },
+        }
+      },
       colors: {
         primary: "#0B1D3A",
         secondary: "#1C2E5A",
         accent: "#FF6A2B",
         accentSoft: "#FFA366",
 
-        background: "#F5F6F8",
+        background: "#D2D5D8",
         surface: "#FFFFFF",
         muted: "#6B7280",
         border: "#E5E7EB",

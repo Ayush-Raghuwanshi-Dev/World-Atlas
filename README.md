@@ -3,13 +3,13 @@
 World Atlas is a premium React application that allows users to explore detailed information about every country on Earth. Featuring a sleek dark-themed UI, real-time search, regional filtering, and advanced sorting, it provides a seamless experience for discovering the world's diverse cultures and geography.
 
 ## 🚀 Live Demo
-![Home Page](src/assets/demos/Demo_1.png)
+![Home Page](src/assets/Demo_1.png)
 *Home Page with a stunning 3D globe visualization.*
 
-![Country Page](src/assets/demos/Demo_2.png)
+![Country Page](src/assets/Demo_2.png)
 *Country list with real-time search, Asc/Desc sorting, and Region filters.*
 
-![Details Page](src/assets/demos/Demo_3.png)
+![Details Page](src/assets/Demo_3.png)
 *Side-by-side details view with comprehensive national data.*
 
 ## 🛠️ Technology Stack

@@ -1,16 +1,78 @@
-# React + Vite
+# 🌍 World Atlas - Explore the Globe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+World Atlas is a premium React application that allows users to explore detailed information about every country on Earth. Featuring a sleek dark-themed UI, real-time search, regional filtering, and advanced sorting, it provides a seamless experience for discovering the world's diverse cultures and geography.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+![Home Page](src/assets/demos/Demo_1.png)
+*Home Page with a stunning 3D globe visualization.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Country Page](src/assets/demos/Demo_2.png)
+*Country list with real-time search, Asc/Desc sorting, and Region filters.*
 
-## React Compiler
+![Details Page](src/assets/demos/Demo_3.png)
+*Side-by-side details view with comprehensive national data.*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technology Stack
+- **Frontend**: React.js (v18+)
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS & Vanilla CSS
+- **Routing**: React Router DOM (v6)
+- **API Handling**: Axios
+- **Icons**: Lucide React / SVG Icons
+- **Data Source**: [RestCountries API](https://restcountries.com/)
 
-## Expanding the ESLint configuration
+## 📂 Folder Structure
+```text
+world-atlas/
+├── src/
+│   ├── api/                # Axios configurations and API calls
+│   ├── assets/             # Images, demos, and static assets
+│   ├── components/
+│   │   ├── Layout/         # Layout-specific components (AppLayout, CountryItem)
+│   │   └── UI/             # Reusable UI components (Header, Footer, Loader)
+│   ├── pages/              # Page components (Home, About, Country, Details)
+│   ├── App.jsx             # Main application component & Routing
+│   ├── App.css             # Global styles and animations
+│   └── main.jsx            # Application entry point
+├── public/                 # Public assets
+├── .gitignore              # Git ignore rules
+├── LICENSE                 # MIT License
+├── package.json            # Project dependencies and scripts
+└── README.md               # Project documentation
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Usage
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Ayush-Raghuwanshi-Dev/World-Atlas.git
+   ```
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd world-atlas
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Open in browser**:
+   Navigate to `http://localhost:5173`.
+
+## 📄 License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## ✉️ Contact
+**Ayush Raghuwanshi** - [ayushraghuwanshi@example.com](mailto:ayushraghuwanshi@example.com)
+- **GitHub**: [Ayush-Raghuwanshi-Dev](https://github.com/Ayush-Raghuwanshi-Dev)
+- **Project Link**: [https://github.com/Ayush-Raghuwanshi-Dev/World-Atlas](https://github.com/Ayush-Raghuwanshi-Dev/World-Atlas)
+
+---
+*Developed with ❤️ for the world of web development.*
